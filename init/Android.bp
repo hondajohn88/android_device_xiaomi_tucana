@@ -14,9 +14,9 @@
 // limitations under the License.
 //
 cc_library_static {
-    name: "libinit_davinci",
-    srcs: ["init_davinci.cpp"],
+    name: "libinit_tucana",
     recovery_available: true,
+    srcs: ["init_tucana.cpp"],
     include_dirs: [
         "system/core/base/include",
         "system/core/init"
